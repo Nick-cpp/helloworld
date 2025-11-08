@@ -22,7 +22,7 @@ $ cd helloworld/
 
 $ g++ -std=c++17 "helloworld.cpp" -o helloworld
 
-$ sudo install -Dm755 helloworld "$pkgdir/usr/bin/helloworld"
+$ sudo install -Dm755 helloworld /usr/bin/helloworld
 
 step 4:
 program launch
