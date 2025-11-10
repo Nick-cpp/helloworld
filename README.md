@@ -20,7 +20,7 @@ compilation & installation
 
 $ cd helloworld/
 
-$ g++ -std=c++17 "helloworld.cpp" -o helloworld
+$ g++ -std=c++17 helloworld.cpp -o helloworld
 
 $ sudo install -Dm755 helloworld /usr/bin/helloworld
 
